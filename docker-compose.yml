@@ -1,0 +1,24 @@
+version: '3'
+services:
+  www:
+    image: php:apache
+    volumes:
+      - "./:/var/www/html" #sync project directory
+    ports:
+      - 8000:80
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_DATABASE=Demaasvalei
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=password
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
+    volumes:
+      - "./db:/docker-entrypoint-initdb.d" #put all files from db into database on runtime
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 8001:80
+    environment:
+      - PMA_HOST=db
+      - PMA_PORT=3306

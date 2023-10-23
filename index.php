@@ -1,3 +1,8 @@
+<?php
+    $title = 'Home';
+    $page = 'Home';
+    Include_once('assets/php/header.php')
+?>
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">

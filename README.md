@@ -11,9 +11,8 @@ This project is a simple administarion system for an on going school project.
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* Project version 0.1
+* Docker version 4.17.0
 	
 ## Setup
 To run this project, install it locally using npm:

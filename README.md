@@ -18,7 +18,6 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ cd ../campingDeMaasVallei
+$ docker run -dt --name campingDeMaasVallei -p 88:80 -v .:/usr/local/apache2/htdocs/ httpd:2.4
 ```

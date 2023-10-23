@@ -11,7 +11,21 @@
     <link rel="stylesheet" href="css/adminstyle.css">
 </head>
 <body>
-                <?php
+<a href="aanmaken.php">aanmaken</a>
+
+        
+            
+<br><a href="includes/logout.php">logout</a>
+
+
+
+
+
+
+
+
+
+                <!-- <?php
                 include_once 'includes/connect.php';
 
                 $sql = "SELECT * FROM menu";
@@ -32,12 +46,12 @@
                          <a href="etendetail.php?id=<?php echo $menu['id']; ?>">Meer informatie</a></th> </tr>
                 <?php 
             } ?>
-            </table>
+            </table> -->
 
-            <a href="aanmaken.php">aanmaken</a>
+            <!-- <a href="aanmaken.php">aanmaken</a>
 
         
             
-    <br><a href="includes/logout.php">logout</a>
+    <br><a href="includes/logout.php">logout</a> -->
 </body>
 </html>

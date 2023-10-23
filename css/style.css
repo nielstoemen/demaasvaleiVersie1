@@ -6,6 +6,9 @@
 
 body{
     background-color: #DCC9BC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .voordeelstyle{
@@ -44,7 +47,7 @@ footer{
     padding: 50px;
     display: flex;
     width: 100%;
-    margin-bottom: 0px;
+    margin-top: auto;
 }
 
 .footertekst{

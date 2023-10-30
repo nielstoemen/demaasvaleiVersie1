@@ -11,6 +11,10 @@ body{
     flex-direction: column;
 }
 
+.NavFoto{
+    height: 250px;
+}
+
 .voordeelstyle{
     height: 100vh;
     width: 100%;

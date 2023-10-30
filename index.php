@@ -10,7 +10,7 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    <img src="image/banner1.jpg" height="300px">
+    <img src="image/banner1.jpg" height="300px" with="100%" class="NavFoto">
     <nav>
         <a href="index.php"><img src="image/huis.jpg" class="huisfoto" width="40px" height="40px"></a>
         <button class="buttonnav"><a href="index.php" class="navigatie">Home</a></button>
@@ -20,7 +20,7 @@
     </nav>
     <main>
     <!-- main input -->
-    <h4>Camping de Maasvalei is een camping dichtbij natuurgebied maasvalei. Het natuurgebied ligt op loopafstand.</h4>
+    <h4>Camping de Maasvalei is een camping dichtbij natuurgebied maasvalei. Het natuurgebied ligt op loopafstand. <br> Dit zorgt ervoor dat het een populaire camping is voor wandelaars en natuurliefhebbers </h4>
     <footer>
         <div class="opening">
             <h3 class="footertekst">Openingstijden</h3>
